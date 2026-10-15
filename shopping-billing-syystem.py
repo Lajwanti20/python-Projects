@@ -38,7 +38,7 @@ priceAfterDiscount = 0
 
 if(totalBill > 5000) :
     priceAfterDiscount = totalBill - (totalBill * (10/100))
-    print("Discount Rs.",(totalBill * (10/100)),"sss",priceAfterDiscount)
+    print("Discount Rs.",(totalBill * (10/100)))
 elif (totalBill >= 3000 or totalBill>=4999) :
      priceAfterDiscount = totalBill - (totalBill * (5/100))
      print("Discount Rs.",(totalBill * (5/100)))
